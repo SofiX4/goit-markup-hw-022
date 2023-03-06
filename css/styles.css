@@ -26,7 +26,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--body-color);
+    color: var(--color-slate);
 }
 
 .link {
@@ -41,7 +41,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -61,13 +61,16 @@ body {
     color: var(--navigation-color);
 }
 
+.address{
+    font-style: normal;
+}
+
 .header-address-mailto,
 .header-address-tel {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-color);
-    font-style: normal;
 }
 
 .header-address-mailto:hover,
@@ -95,6 +98,11 @@ body {
 }
 
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: var(--hero-btn-background-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -175,7 +183,7 @@ body {
 
 .footer-text {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--color-cornflower);
 }
