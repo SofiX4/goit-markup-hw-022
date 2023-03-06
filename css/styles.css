@@ -72,8 +72,11 @@ body {
 
 .header-address-mailto:hover,
 .header-address-mailto:focus,
+.header-address-tel:hover,
+.header-address-tel:focus,
 .nav:hover,
-.nav:focus {
+.nav:focus,
+.nav:active {
     color: var(--navigation-color-hover);
 }
 
@@ -175,4 +178,37 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-cornflower);
+}
+
+
+
+
+/* --------------   START Portfolio   -------------- */
+
+/* --------------Filter-------------- */
+
+.filter-btn{
+    background-color: var(--color-cornflower);
+    color: var(--color-iris);
+    cursor: pointer;
+}
+
+.filter-btn:is(:hover, :focus){
+    background-color: var(--color-ocean);
+    color: var(--color-cloud);
+}
+
+.project-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
+
+.project-filter{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
 }
