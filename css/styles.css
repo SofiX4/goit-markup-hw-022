@@ -65,18 +65,15 @@ body {
     font-style: normal;
 }
 
-.header-address-mailto,
-.header-address-tel {
+.header-address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-color);
 }
 
-.header-address-mailto:hover,
-.header-address-mailto:focus,
-.header-address-tel:hover,
-.header-address-tel:focus,
+.header-address:hover,
+.header-address:focus,
 .nav:hover,
 .nav:focus,
 .nav:active {
